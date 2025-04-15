@@ -1,0 +1,156 @@
+// ignore_for_file: non_constant_identifier_names
+
+import 'package:flutter/material.dart';
+import 'package:german/Models/CategoryItemModel.dart';
+
+class Numberslistclass {
+  static List Numberlist = [
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-0-100.png",
+      EnglishText: "Zero",
+      GermanText: "Null",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-7-27.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-1-100.png",
+      EnglishText: "One",
+      GermanText: "Eins",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-9-23.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-2-100.png",
+      EnglishText: "Two",
+      GermanText: "zwei",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-9-31.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-3-100.png",
+      EnglishText: "Three",
+      GermanText: "drei",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-9-39.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-4-100.png",
+      EnglishText: "Four",
+      GermanText: "vier",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-28-43.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-5-100.png",
+      EnglishText: "Five",
+      GermanText: "fünf",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-28-47.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-6-100.png",
+      EnglishText: "Six",
+      GermanText: "sechs",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-9-51.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-7-100.png",
+      EnglishText: "Seven",
+      GermanText: "sieben",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-9-58.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-8-100.png",
+      EnglishText: "Eight",
+      GermanText: "acht",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-10-4.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-9-100.png",
+      EnglishText: "Nine",
+      GermanText: "neun",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-32-39.mp3",
+      color: Color(0xff2F3E46),
+    ),
+    Categoryitemmodel(
+      image: "assets/images/numbers/icons8-10-64.png",
+      EnglishText: "Ten",
+      GermanText: "zehn",
+      AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-32-43.mp3",
+      color: Color(0xff2F3E46),
+    ),
+     Categoryitemmodel(
+    image: "assets/images/numbers/icons8-11-64.png",
+    EnglishText: "Eleven",
+    GermanText: "elf",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-11-20.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-12-64.png",
+    EnglishText: "Twelve",
+    GermanText: "zwölf",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_15-11-45.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-13-64.png",
+    EnglishText: "Thirteen",
+    GermanText: "dreizehn",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-40-47.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-14-64.png",
+    EnglishText: "Fourteen",
+    GermanText: "vierzehn",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-40-53.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-15-64.png",
+    EnglishText: "Fifteen",
+    GermanText: "fünfzehn",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-40-59.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-16-64.png",
+    EnglishText: "Sixteen",
+    GermanText: "sechzehn",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-41-3.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-17-64.png",
+    EnglishText: "Seventeen",
+    GermanText: "siebzehn",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-41-8.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-18-64.png",
+    EnglishText: "Eighteen",
+    GermanText: "achtzehn",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-41-11.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-19-64.png",
+    EnglishText: "Nineteen",
+    GermanText: "neunzehn",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-41-15.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  Categoryitemmodel(
+    image: "assets/images/numbers/icons8-20-64.png",
+    EnglishText: "Twenty",
+    GermanText: "zwanzig",
+    AudioPath: "Sounds/Numbers/ttsMP3.com_VoiceText_2025-4-15_16-41-21.mp3",
+    color: Color(0xff2F3E46),
+  ),
+  ];
+}
